@@ -1,6 +1,6 @@
 
 .top {
-  background-color: blue;
+  background-color: darkblue;
   height: 70px;
   width: 100%;
 }
@@ -10,8 +10,7 @@
   height: 70px;
   padding: 15px 15px;
   font-size: 18px;
-  vertical-align: middle;
-  background-color: pink;
+  line-height: 70px;
   text-transform: uppercase;
 }
 
@@ -20,4 +19,14 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
+  font-weight: bold;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.bg-verde {
+  background-color: #7FFFD4
 }
