@@ -1,0 +1,23 @@
+
+.top {
+  background-color: blue;
+  height: 70px;
+  width: 100%;
+}
+
+.navbar-brand {
+  float: left;
+  height: 70px;
+  padding: 15px 15px;
+  font-size: 18px;
+  vertical-align: middle;
+  background-color: pink;
+  text-transform: uppercase;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
