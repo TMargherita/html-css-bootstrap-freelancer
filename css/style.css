@@ -1,16 +1,13 @@
 
 .top {
   background-color: darkblue;
-  height: 70px;
   width: 100%;
 }
 
 .navbar-brand {
   float: left;
-  height: 70px;
   padding: 15px 15px;
   font-size: 18px;
-  line-height: 70px;
   text-transform: uppercase;
 }
 
@@ -28,5 +25,6 @@ a {
 }
 
 .bg-verde {
-  background-color: #7FFFD4
+  background-color: #7FFFD4;
+  width: 100%;
 }
