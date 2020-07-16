@@ -64,4 +64,22 @@ body {
   color: #fff;
   font-weight: 900;
   font-size: 64px;
+  padding-bottom: 20px;
+}
+
+.divider {
+  display: inline-block;
+  width: 15%;
+  height: 0.25rem;
+  margin: auto;
+  color: #fff;
+  border-radius: 3px;
+  border: 3px solid #fff;
+  background-color: #fff;
+}
+
+.stella {
+  padding: 0 15px;
+  margin: auto;
+  color: #fff;
 }
