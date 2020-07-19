@@ -13,6 +13,13 @@ body {
 .p_bottom_80 {
   padding-bottom: 80px;
 }
+
+.m_top_30 {
+  margin-top: 30px;
+}
+.m_bottom_30 {
+  margin-bottom: 30px;
+}
 .m_bottom {
   margin-bottom: 15px;
 }
@@ -29,12 +36,53 @@ body {
   background-color: #1abc9c;
 }
 
-.divisore-gray {
-  color: #2c3e50;
+.btn_green {
+  background-color: #1ABC9C;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
 }
 
-.gray {
-  color: #2c3e50;
+.btn_green .glyphicon {
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+.btn_download {
+  background-color: #1ABC9C;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+}
+
+.btn_download:hover {
+  background-color: #fff;
+}
+
+.wrapper_small {
+  max-width: 800px;
+  margin: auto;
+}
+
+/*typo*/
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
 }
 
 /*header*/
@@ -61,6 +109,7 @@ body {
   list-style: none;
   display: inline-block;
   padding: 0 15px;
+  font-size: 18px;
 }
 
 /*jumbotron*/
@@ -82,53 +131,45 @@ body {
   padding-bottom: 20px;
 }
 
-.divisore {
-  width: 100%;
-  height: 48px;
-  margin-bottom: 40px;
-}
-
-.divisore-linea {
-  display: inline-block;
-  width: 100px;
-  height: 2px;
-  padding-right: 32px;
-  color: #fff;
-  border-radius: 3px;
-  border: 1px solid #fff;
-  background-color: #fff;
-}
-
-.fa-star {
-  display: inline-block;
-  font-size: 32px;
-  align-items: center;
-  color: #fff;
-}
 .profilo {
   padding-top: 30px;
   color:#fff;
   font-weight: 400;
   font-size: 24px;
 }
+.stella {
+  font-size: 35px;
+  margin: 15px 0;
+}
+.stella i {
+  color: #fff;
+  margin: 0 5px;
+}
+.stella_dark i {
+  color: #2c3e50;
+}
+
+.stella::before, .stella::after {
+  content:"";
+  display: inline-block;
+  vertical-align: middle;
+  height: 4px;
+  width: 100px;
+  background-color: #fff;
+  vertical-align: middle;
+  border-radius: 3px;
+}
 
 /*section*/
 /*PORTFOLIO*/
 
-h2 {
-  font-weight: 700;
+.portfolio {
   color: #2c3e50;
-  font-size: 48px;
 }
-.divisore-gray {
-  display: inline-block;
-  width: 100px;
-  height: 4px;
-  padding-right: 32px;
-  color: #2c3e50;
-  border-radius: 3px;
-  border: 1px solid #2c3e50;
-  background-color: #2c3e50;
+
+.box  {
+  position: relative;
+  overflow: hidden;
 }
 .overlay {
   position: absolute;
@@ -138,7 +179,6 @@ h2 {
   width: 100%;
   opacity: 0;
   background-color: #1abc9c;
-  border-radius: 16px;
   margin: auto;
 }
 .icon {
@@ -158,3 +198,51 @@ h2 {
 .fa-plus:hover {
   color: #fff;
 }
+
+.stella.stella_dark i {
+  color: #2C3E50;
+}
+
+.stella.stella_dark::before, .stella.stella_dark::after {
+  background-color: #2C3E50;
+}
+ /*ABOUT*/
+ #about {
+   color: #fff;
+ }
+
+/*contatti*/
+#contatti {
+  color: #2C3E50;
+}
+
+.modulo-contatti {
+  max-width: 700px;
+  display: block;
+  text-align: center;
+}
+
+input {
+outline: none;
+width: 100%;
+}
+
+label {
+  font-size: 20px;
+  color: #6c757d;
+  font-weight: lighter;
+}
+.form {
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 0px;
+
+  line-height: 20px;
+  }
+
+.form input[type=text], textarea{
+  display: block;
+  border: 0;
+  height: calc(24px + 16px);
+  padding-left: 10px;
+  outline: 0;
+ }
