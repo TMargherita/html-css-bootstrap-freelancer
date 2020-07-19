@@ -57,6 +57,12 @@ body {
 .btn_download:hover {
   background-color: #fff;
 }
+.btn_send {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 25px;
+  background-color: #1ABC9C;
+}
 
 .wrapper_small {
   max-width: 800px;
